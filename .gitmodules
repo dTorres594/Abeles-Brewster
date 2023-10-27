@@ -1,3 +1,6 @@
 [submodule "Newport_FCR100"]
 	path = Newport_FCR100
 	url = https://github.com/dTorres594/Newport_FCR100.git
+[submodule "NI_DAQ"]
+	path = NI_DAQ
+	url = https://github.com/dTorres594/NI_DAQ.git
