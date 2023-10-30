@@ -20,7 +20,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Module" Type="Folder">
+		<Item Name="Config" Type="Folder">
+			<Item Name="config.ini" Type="Document" URL="../config/config.ini"/>
+		</Item>
+		<Item Name="Modules" Type="Folder">
 			<Item Name="FCR100.lvlib" Type="Library" URL="../../Newport_FCR100/Libraries/FCR100/FCR100.lvlib"/>
 			<Item Name="NI DAQ.lvlib" Type="Library" URL="../../NI_DAQ/Libraries/NI DAQ/NI DAQ.lvlib"/>
 		</Item>
@@ -60,6 +63,9 @@
 			<Item Name="Abeles-Brewster - Newport Check Loop Error.vi" Type="VI" URL="../support/Abeles-Brewster - Newport Check Loop Error.vi"/>
 			<Item Name="Abeles-Brewster - Newport Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Abeles-Brewster - Newport Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Abeles-Brewster - Newport Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Abeles-Brewster - Newport Error Handler - Message Handling Loop.vi"/>
+			<Item Name="Config dialog.vi" Type="VI" URL="../support/Config dialog.vi"/>
+			<Item Name="Write config.vi" Type="VI" URL="../support/Write config.vi"/>
+			<Item Name="Load config.vi" Type="VI" URL="../support/Load config.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test FCR100 API.vi" Type="VI" URL="../../Newport_FCR100/Libraries/FCR100/Test FCR100 API.vi"/>
@@ -67,15 +73,20 @@
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Abeles-Brewster - Newport UI Data.ctl" Type="VI" URL="../controls/Abeles-Brewster - Newport UI Data.ctl"/>
+			<Item Name="Config dialog states -- enum.ctl" Type="VI" URL="../controls/Config dialog states -- enum.ctl"/>
+			<Item Name="DAQ config parameters -- cluster.ctl" Type="VI" URL="../controls/DAQ config parameters -- cluster.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/Bytes At Serial Port.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
@@ -307,6 +318,9 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Not A Rendezvous.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -352,7 +366,6 @@
 				<Item Name="Write Characters To File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Characters To File.vi"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 			</Item>
-			<Item Name="Motor parameters.ctl" Type="VI" URL="../../NI_DAQ/Libraries/GUI/Support/Motor parameters.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
