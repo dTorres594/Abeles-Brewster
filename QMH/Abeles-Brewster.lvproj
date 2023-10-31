@@ -75,6 +75,7 @@
 			<Item Name="Abeles-Brewster - Newport UI Data.ctl" Type="VI" URL="../controls/Abeles-Brewster - Newport UI Data.ctl"/>
 			<Item Name="Config dialog states -- enum.ctl" Type="VI" URL="../controls/Config dialog states -- enum.ctl"/>
 			<Item Name="DAQ config parameters -- cluster.ctl" Type="VI" URL="../controls/DAQ config parameters -- cluster.ctl"/>
+			<Item Name="FCR config parameters -- cluster.ctl" Type="VI" URL="../controls/FCR config parameters -- cluster.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
