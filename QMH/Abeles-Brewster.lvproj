@@ -66,6 +66,9 @@
 			<Item Name="Config dialog.vi" Type="VI" URL="../support/Config dialog.vi"/>
 			<Item Name="Write config.vi" Type="VI" URL="../support/Write config.vi"/>
 			<Item Name="Load config.vi" Type="VI" URL="../support/Load config.vi"/>
+			<Item Name="Reset devices.vi" Type="VI" URL="../support/Reset devices.vi"/>
+			<Item Name="Send home.vi" Type="VI" URL="../support/Send home.vi"/>
+			<Item Name="Wait for state.vi" Type="VI" URL="../support/Wait for state.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test FCR100 API.vi" Type="VI" URL="../../Newport_FCR100/Libraries/FCR100/Test FCR100 API.vi"/>
