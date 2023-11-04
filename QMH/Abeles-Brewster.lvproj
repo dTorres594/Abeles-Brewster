@@ -70,6 +70,7 @@
 			<Item Name="Send home.vi" Type="VI" URL="../support/Send home.vi"/>
 			<Item Name="Wait for state.vi" Type="VI" URL="../support/Wait for state.vi"/>
 			<Item Name="Update FCR parameters -- subVI.vi" Type="VI" URL="../support/Update FCR parameters -- subVI.vi"/>
+			<Item Name="wait -- subVI.vi" Type="VI" URL="../support/wait -- subVI.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test FCR100 API.vi" Type="VI" URL="../../Newport_FCR100/Libraries/FCR100/Test FCR100 API.vi"/>
