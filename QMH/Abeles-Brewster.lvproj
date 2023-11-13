@@ -71,6 +71,7 @@
 			<Item Name="Wait for state.vi" Type="VI" URL="../support/Wait for state.vi"/>
 			<Item Name="Update FCR parameters -- subVI.vi" Type="VI" URL="../support/Update FCR parameters -- subVI.vi"/>
 			<Item Name="wait -- subVI.vi" Type="VI" URL="../support/wait -- subVI.vi"/>
+			<Item Name="Setup and start acquisition.vi" Type="VI" URL="../support/Setup and start acquisition.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test FCR100 API.vi" Type="VI" URL="../../Newport_FCR100/Libraries/FCR100/Test FCR100 API.vi"/>
@@ -83,7 +84,6 @@
 			<Item Name="FCR config parameters -- cluster.ctl" Type="VI" URL="../controls/FCR config parameters -- cluster.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Setup and start acquisition.vi" Type="VI" URL="../support/Setup and start acquisition.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
