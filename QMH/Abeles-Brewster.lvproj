@@ -72,6 +72,7 @@
 			<Item Name="Update FCR parameters -- subVI.vi" Type="VI" URL="../support/Update FCR parameters -- subVI.vi"/>
 			<Item Name="wait -- subVI.vi" Type="VI" URL="../support/wait -- subVI.vi"/>
 			<Item Name="Setup and start acquisition.vi" Type="VI" URL="../support/Setup and start acquisition.vi"/>
+			<Item Name="Import data --subVI.vi" Type="VI" URL="../support/Import data --subVI.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test FCR100 API.vi" Type="VI" URL="../../Newport_FCR100/Libraries/FCR100/Test FCR100 API.vi"/>
