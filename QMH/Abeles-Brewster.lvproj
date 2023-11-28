@@ -77,9 +77,10 @@
 			<Item Name="Anayze SPR curve.vi" Type="VI" URL="../support/Anayze SPR curve.vi"/>
 			<Item Name="Filter and trim data.vi" Type="VI" URL="../support/Filter and trim data.vi"/>
 			<Item Name="Get angle range.vi" Type="VI" URL="../support/Get angle range.vi"/>
-			<Item Name="Save file.vi" Type="VI" URL="../support/Save file.vi"/>
+			<Item Name="Save angle file.vi" Type="VI" URL="../support/Save angle file.vi"/>
 			<Item Name="Update angle chart -- subVI.vi" Type="VI" URL="../support/Update angle chart -- subVI.vi"/>
 			<Item Name="Update time chart -- subVI.vi" Type="VI" URL="../support/Update time chart -- subVI.vi"/>
+			<Item Name="Save time file.vi" Type="VI" URL="../support/Save time file.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test FCR100 API.vi" Type="VI" URL="../../Newport_FCR100/Libraries/FCR100/Test FCR100 API.vi"/>
